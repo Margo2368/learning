@@ -1,0 +1,9 @@
+.rek {
+  color: red;
+  display: flex;
+  gap: 25px;
+}
+
+.sky {
+  color: inherit;
+}
