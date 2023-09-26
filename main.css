@@ -7,7 +7,7 @@ body {
   align-items: center;
   justify-content: center; */
   position: relative;
-  min-height: 200vh;
+  height: 200vh;
   width: 100%;
 }
 .top::before {
@@ -15,7 +15,7 @@ body {
   background-image: url(ananasiki2.jpg);
   background-size: cover;
   position: absolute;
-  height: 200 vh;
+  /* height: 200vh; */
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -30,9 +30,29 @@ body {
   position: sticky;
   top: 0;
   margin: 0;
+  z-index: 100;
 }
 .photos {
+  position: relative;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo-fruit1 {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  width: 150px;
+  height: 150px;
+}
+.photo-fruit2 {
+  width: 150px;
+  height: 150px;
+}
+.photo-fruit3 {
+  width: 150px;
+  height: 150px;
+}
+.photo-fruit4 {
+  width: 150px;
+  height: 150px;
 }
